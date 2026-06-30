@@ -2,6 +2,7 @@
 
 ## Operational
 * [Pre-assessment test](https://forms.gle/rJqA6u1NuqL9wKbFA)
+* [Training Feedback](https://forms.gle/To1HVLtNCNjmzZFs7)
 
 ## Snippets
 * Virtual Environments
@@ -28,3 +29,9 @@
     * [Format specifiers](https://docs.python.org/3/library/string.html#format-specification-mini-language)
 * [Builtin Exceptions](https://docs.python.org/3/library/exceptions.html#built-in-exceptions)
     * [Exception Hierarchy](https://docs.python.org/3/library/exceptions.html#exception-hierarchy)
+
+## Contact
+* Ramakant Debata
+* ramakant.s.debata@gmail.com
+* +91-9923516767 (WhatsApp)
+* https://www.linkedin.com/in/ramakant-debata/
