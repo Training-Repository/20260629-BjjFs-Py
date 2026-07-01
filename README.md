@@ -29,6 +29,7 @@
     * [Format specifiers](https://docs.python.org/3/library/string.html#format-specification-mini-language)
 * [Builtin Exceptions](https://docs.python.org/3/library/exceptions.html#built-in-exceptions)
     * [Exception Hierarchy](https://docs.python.org/3/library/exceptions.html#exception-hierarchy)
+* [Operators as functions](https://docs.python.org/3/library/operator.html#module-operator)
 
 ## Contact
 * Ramakant Debata
