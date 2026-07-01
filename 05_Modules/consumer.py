@@ -18,4 +18,23 @@
 
 #---------------------------------
 
-from greetings import *
+# from greetings import *
+
+# import sys
+# # sys.path.append()
+# print(f"{sys.path = }")
+# # from MyMath import add
+# from MyMath import *
+
+# print(add(1, 2))
+
+# from MyMath.algebra import helper
+
+#----------------------------
+
+# from MyMath import *
+
+# print(add(1, 2))
+
+import MyMath
+print(MyMath.add(1, 2))

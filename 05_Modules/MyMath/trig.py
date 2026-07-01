@@ -1,0 +1,2 @@
+def sine(rad):
+    pass
