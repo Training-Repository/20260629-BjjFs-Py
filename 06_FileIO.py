@@ -45,7 +45,9 @@ def demo_os():
     ## Version 3
     with open(new_file_path, mode="w") as file:
         file.write("This is a demo file\n")
+        file.write("ERROR: Issue 1 occurred; Data - \n")
         file.write("Second line\n")
+        file.write("ERROR: Issue 1 occurred; Data - \n")
         file.writelines(["Third line\n", "Fourth line\n", "Fifth Line\n"])
         
     ## Reading the file
@@ -61,9 +63,16 @@ def demo_os():
 
         
     print("="*40)
-    with open(second_file_path) as file:
-        data  = file.read()
-        print(data)
+    with open(new_file_path) as file:
+        # data  = file.read()
+        # print(data)
+        for line in file:
+            if "ERROR:" in line:
+                print(f">>{line}", end='')
+            else:
+                print(line, end='')
+
+        print()
     print("="*40)
 
     with open(new_file_path) as file:
